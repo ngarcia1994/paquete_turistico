@@ -1,6 +1,7 @@
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
 }
 
 .container{
@@ -220,6 +221,9 @@ hr{
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+
 /*Footer*/
 footer {
     border-top: 1px solid black;
