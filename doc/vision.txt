@@ -1,0 +1,6 @@
+PARA: Personas que quieran conocer en detalle los mejores sitios de la ciudad de Cartagena y que al momento de adquirir un servicio, no tengan la seguridad de que es un excelente precio y que está avalado por la comunidad.
+QUIEN: El equipo de desarrollo conformado por tripulantes de la UTP
+EL: "nodpapaya.com" QUE ES UN/A "aplicación de viaje"
+QUE: Brinda seguridad de obtener los mejores tratos en la zona local, gracias a su sistema de recomendaciones negativas y positivas.
+A DIFERENCIA DE: Trivago o empresas similares que solo califican hoteles, restaurantes y empresas oficiles relacionadas con el turismo.
+NUESTRO PRODUCTO: No tiene como objetivo venderle al cliente un producto sino asesorarlo y en caso de tener un plan se le brindaría un acompañamiento más personalizado con personas locales que también se encuentren registradas. Además, brindará información al usuario de servicios no formales, como por ejemplo su calificación.
