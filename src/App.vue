@@ -1,14 +1,15 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <app-header></app-header>
+  <app-navigation></app-navigation>
   <button @click="add">Click aquí</button>
+  <app-footer></app-footer>
 </template>
 
 <script>
-// import {retrieveAll, addDocument} from './utils/dbHandler';
+// import {retrieveAll, addDocument} from './utils/dbHandler'
+import AppFooter from './components/Footer';
+import AppNavigation from './components/Navigation';
+import AppHeader from "./components/Header";
 
 export default {
     name: "App",
@@ -16,6 +17,11 @@ export default {
       return {
 
       }
+    },
+    components: {
+      AppHeader,
+      AppNavigation,
+      AppFooter
     },
     mounted() {
       // Obtiene todos los datos
@@ -33,12 +39,14 @@ export default {
   }
 </script>
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: $primary-color;
 }
 
 #nav {
@@ -54,3 +62,4 @@ export default {
   }
 }
 </style>
+
