@@ -4,36 +4,36 @@ function getTeamInfo(name) {
       name: 'Andrés Ignacio Castrillón González',
       role: 'Development Team',
       email: 'andnachocas@gmail.com',
-      image: 'ac.svg',
+      image: 'Andres.png',
       background: '#2e46d1'
     },
     angie: {
       name: 'Angie Lizeth Santiago Piñeros ',
       role: 'Development Team',
       email: 'Lizeth04santiago@gmail.com ',
-      image: 'al.svg',
+      image: 'Angie.png',
       background: '#802ed1'
-    },
-    nelson: {
-      name: 'Nelson Alejandro Garcia',
-      role: 'Development Team',
-      email: 'alejandro.garcia94@outlook.com',
-      image: 'ng.svg',
-      background: '#114639'
-    },
-    jose: {
-      name: 'José David Gómez Chamorro',
-      role: 'Development Team',
-      email: 'jose-gch18@hotmail.com',
-      image: 'jg.svg',
-      background: '#d1b02e'
     },
     daniel: {
       name: 'Daniel Eduardo Orjuela M.',
       role: 'Development Team',
       email: 'daniel.orju8@gmail.com',
-      image: 'do.svg',
+      image: 'Daniel.png',
       background: '#c0500e'
+    },
+    jose: {
+      name: 'José David Gómez C.',
+      role: 'Development Team',
+      email: 'jose-gch18@hotmail.com',
+      image: 'Jose.png',
+      background: '#d1b02e'
+    },
+    nelson: {
+      name: 'Nelson Alejandro Garcia',
+      role: 'Development Team',
+      email: 'alejandro.garcia94@outlook.com',
+      image: 'Nelson.png',
+      background: '#114639'
     }
   }
 

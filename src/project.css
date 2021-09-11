@@ -1,6 +1,7 @@
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
 }
 
 .container{
@@ -84,8 +85,9 @@ body{
 }
 
 .section-3{
-    height: 500px;
-    background-color: coral;
+    height: auto;
+    background: linear-gradient(180deg, purple, blue, black, #FFB945);
+    border-top: 2px solid black;
 }
 
 .footer{
@@ -113,14 +115,6 @@ body{
     margin-top: 5px;
     text-align: center;
 }
-.col-5{
-    width: 19%;
-    height: 470px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color: rgb(255, 177, 148);
-}
 
 .service-content{
     padding: 0.5em 0;
@@ -132,11 +126,11 @@ body{
 }
 
 .service-text.memebers{
-    font-style: italic;
+    font-style: italic; 
 }
 
 .section-news > div:first-child{
-    margin-bottom: 2px;
+    margin-bottom: 2px; 
 }
 .news{
     width: 100%;
@@ -157,7 +151,7 @@ body{
     background-color: rebeccapurple;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: inline-flex; 
 }
 
 .news-image{
@@ -190,7 +184,7 @@ body{
 
 .news-url > a{
 
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 hr{
@@ -220,6 +214,61 @@ hr{
     text-decoration: underline;
     font-weight: bold;
 }
+
+/*  ---  SECCION 3  ---  */
+
+.column{
+    text-align: center;
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+}
+
+.perf{
+    width: 60%;
+    border-radius: 20%;
+    border: 5px groove sandybrown;
+    box-shadow: 7px -7px 10px orangered;
+    margin-top: 18px;
+}
+
+.names{
+    color: skyblue;
+    font-family: cursive;
+}
+
+.person{
+    color: lightgray;
+    width: 19%;
+    font-weight: 400;
+    margin: 4px 2px 4px 2px;
+    padding: 10px;
+    border-radius: 5%;
+    background: url(https://c.wallhere.com/photos/e3/b1/stars_galaxy_space_blue-1445049.jpg!d);
+}
+
+.person p{
+    text-align: center;
+    padding-left: 5px;
+}
+
+.subt-3{
+    font-weight: bold;
+    font-family: Rockwell, 'Times New Roman';
+}
+
+.numbers{
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.info{
+    font-family: Constantia, 'Modern love';
+    font-style: italic;
+}
+
 /*Footer*/
 footer {
     border-top: 1px solid black;
@@ -353,7 +402,7 @@ footer > div {
     transform: rotateY(360deg);
 }
 
-#team {
+#footer_team {
     padding: 10px 20px;
     flex: 3;
 }
