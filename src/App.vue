@@ -1,8 +1,10 @@
 <template>
-  <app-header></app-header>
-  <app-navigation></app-navigation>
-  <button @click="add">Click aquí</button>
-  <app-footer></app-footer>
+  <app-header class="header"></app-header>
+  <div class="u-flex">
+    <app-navigation class="navigation"></app-navigation>
+    <router-view class="content"/>
+  </div>
+  <app-footer class="footer"></app-footer>
 </template>
 
 <script>
@@ -39,27 +41,6 @@ export default {
   }
 </script>
 <style lang="scss">
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-color: $primary-color;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+  html{}
 </style>
 
