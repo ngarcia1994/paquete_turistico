@@ -8,7 +8,7 @@
 </template>
 
 <script>
-// import {retrieveAll, addDocument} from './utils/dbHandler'
+// import Client from './utils/Client'
 import AppFooter from './components/Footer';
 import AppNavigation from './components/Navigation';
 import AppHeader from "./components/Header";
@@ -25,15 +25,13 @@ export default {
       AppNavigation,
       AppFooter
     },
-    mounted() {
-      // Obtiene todos los datos
-      // retrieveAll('user').then(data => {
-      //     console.log(data);
-      // });
+    async mounted() {
+      // Obtiene todos los datos pasandole el servicio
+      // const services = await Client.retrieveAll('service');
+      // console.log(services);
 
       // Agrega un documento con la información pasada
-      // addDocument('user', {name: 'Test'})
-
+      // await Client.saveOne('service', {name: 'Test', description: 'Title'});
     },
     methods: {
 

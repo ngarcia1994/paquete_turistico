@@ -9,10 +9,9 @@
     "fstart": "firebase emulators:start"
   },
   "dependencies": {
+    "axios": "^0.21.4",
     "core-js": "^3.6.5",
     "dotenv": "^10.0.0",
-    "firebase": "^9.0.2",
-    "firebase-admin": "^9.11.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuefire": "^2.2.5",
