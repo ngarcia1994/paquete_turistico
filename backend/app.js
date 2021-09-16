@@ -25,4 +25,5 @@ mongoose.connect(process.env.MONGO_URL_CONNEXION).then(result => {
    app.listen(3005);
 }).catch(err => {
   console.log(err);
+  console.log('ESToy aquí');
 });
