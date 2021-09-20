@@ -32,8 +32,6 @@
         </v-col>
       </v-row>
 
-
-
       <v-snackbar v-model="snackbar" :left="$vuetify.breakpoint.lgAndUp">
         You have selected {{ selectedEmployee.name }},
         {{ selectedEmployee.title }}
@@ -115,6 +113,7 @@ export default {
   },
   data() {
     return {
+      attrs: '',
       loadNewContent: false,
       employees: employeesData,
       sales: salesData,
