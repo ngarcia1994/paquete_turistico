@@ -21,9 +21,9 @@ const serviceRoutes = require('./src/routes/service');
 app.use('/api/v1/general', serviceRoutes);
 app.use(errorController.get404);
 
-mongoose.connect(process.env.MONGO_URL_CONNEXION).then(result => {
+// mongoose.connect(process.env.MONGO_URL_CONNEXION).then(result => {
    app.listen(3005);
-}).catch(err => {
-  console.log(err);
-  console.log('ESToy aquí');
-});
+// }).catch(err => {
+//   console.log(err);
+//   console.log('ESToy aquí');
+// });
