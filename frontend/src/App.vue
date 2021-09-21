@@ -1,11 +1,13 @@
 <template>
   <div>
-    <app-header className="header"></app-header>
-    <div className="u-flex">
-      <app-navigation className="navigation"></app-navigation>
-      <router-view className="content"/>
-    </div>
-    <app-footer className="footer"></app-footer>
+      <app-header></app-header>
+      <v-main>
+        <div>
+          <app-navigation></app-navigation>
+          <router-view/>
+        </div>
+      </v-main>
+      <app-footer></app-footer>
   </div>
 </template>
 
@@ -25,19 +27,16 @@ export default {
     AppNavigation,
     AppFooter
   },
-  async mounted() {
-    // Obtiene todos los datos pasandole el servicio
-    // const services = await Client.retrieveAll('service');
-    // console.log(services);
-
-    // Agrega un documento con la información pasada
-    // await Client.saveOne('service', {name: 'Test', description: 'Title'});
-  },
+  // async mounted() {
+  //   // Obtiene todos los datos pasandole el servicio
+  //   // const services = await Client.retrieveAll('service');
+  //   // console.log(services);
+  //
+  //   // Agrega un documento con la información pasada
+  //   // await Client.saveOne('service', {name: 'Test', description: 'Title'});
+  // },
   methods: {}
 }
 </script>
-<style lang="scss">
-html {
-}
-</style>
+<style></style>
 
