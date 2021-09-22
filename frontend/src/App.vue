@@ -1,10 +1,14 @@
 <template>
-  <app-header class="header"></app-header>
-  <div class="u-flex">
-    <app-navigation class="navigation"></app-navigation>
-    <router-view class="content"/>
-  </div>
-  <app-footer class="footer"></app-footer>
+  <v-app>
+      <app-header></app-header>
+      <v-main>
+        <div>
+          <app-navigation></app-navigation>
+          <router-view/>
+        </div>
+      </v-main>
+      <app-footer></app-footer>
+  </v-app>
 </template>
 
 <script>
@@ -14,31 +18,25 @@ import AppNavigation from './components/Navigation';
 import AppHeader from "./components/Header";
 
 export default {
-    name: "App",
-    data() {
-      return {
-
-      }
-    },
-    components: {
-      AppHeader,
-      AppNavigation,
-      AppFooter
-    },
-    async mounted() {
-      // Obtiene todos los datos pasandole el servicio
-      // const services = await Client.retrieveAll('service');
-      // console.log(services);
-
-      // Agrega un documento con la información pasada
-      // await Client.saveOne('service', {name: 'Test', description: 'Title'});
-    },
-    methods: {
-
-    }
-  }
+  name: "App",
+  data() {
+    return {}
+  },
+  components: {
+    AppHeader,
+    AppNavigation,
+    AppFooter
+  },
+  // async mounted() {
+  //   // Obtiene todos los datos pasandole el servicio
+  //   // const services = await Client.retrieveAll('service');
+  //   // console.log(services);
+  //
+  //   // Agrega un documento con la información pasada
+  //   // await Client.saveOne('service', {name: 'Test', description: 'Title'});
+  // },
+  methods: {}
+}
 </script>
-<style lang="scss">
-  html{}
-</style>
+<style></style>
 
