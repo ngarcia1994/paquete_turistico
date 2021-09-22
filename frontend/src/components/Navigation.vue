@@ -1,5 +1,5 @@
 <template>
-  <div>Esto es una navegación</div>
+  <div></div>
 </template>
 
 <script>

@@ -27,14 +27,14 @@ export default {
     AppNavigation,
     AppFooter
   },
-  // async mounted() {
-  //   // Obtiene todos los datos pasandole el servicio
-  //   // const services = await Client.retrieveAll('service');
-  //   // console.log(services);
-  //
-  //   // Agrega un documento con la información pasada
-  //   // await Client.saveOne('service', {name: 'Test', description: 'Title'});
-  // },
+  async mounted() {
+    // Obtiene todos los datos pasandole el servicio
+    // const services = await Client.retrieveAll('service');
+    // console.log(services);
+
+    // Agrega un documento con la información pasada
+    // await Client.saveOne('service', {name: 'Test', description: 'Title'});
+  },
   methods: {}
 }
 </script>

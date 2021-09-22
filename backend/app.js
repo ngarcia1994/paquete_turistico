@@ -22,6 +22,7 @@ app.use('/api/v1/general', serviceRoutes);
 app.use(errorController.get404);
 
 mongoose.connect(process.env.MONGO_URL_CONNEXION).then(result => {
+   console.log('connected');
    app.listen(3005);
 }).catch(err => {
   console.log(err);
