@@ -20,6 +20,17 @@ class Client {
       console.log(e);
     }
   }
+
+  static async getUser(email, password) {
+    try {
+      return await axiosInstance.post('/api/v1/auth/', {
+        email: email,
+        password: password
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
 }
 
 module.exports = Client;

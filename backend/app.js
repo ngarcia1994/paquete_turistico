@@ -16,14 +16,16 @@ const mongoose = require('mongoose');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const serviceRoutes = require('./src/routes/service');
+const serviceRoutes = require('./src/routes/general');
+const authRoutes = require('./src/routes/auth');
 
+app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/general', serviceRoutes);
 app.use(errorController.get404);
 
 mongoose.connect(process.env.MONGO_URL_CONNEXION).then(result => {
    console.log('connected');
-   app.listen(3005);
+   app.listen(3006);
 }).catch(err => {
   console.log(err);
 });
