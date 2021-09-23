@@ -17,6 +17,8 @@ import AppFooter from './components/Footer';
 import AppNavigation from './components/Navigation';
 import AppHeader from "./components/Header";
 
+// import { mapState, mapMutations, mapActions } from 'vuex';
+
 export default {
   name: "App",
   data() {
@@ -35,7 +37,20 @@ export default {
     // Agrega un documento con la información pasada
     // await Client.saveOne('service', {name: 'Test', description: 'Title'});
   },
-  methods: {}
+  // methods: {
+  //   ...mapMutations([
+  //      "increment"
+  //   ]),
+  //   ...mapActions([
+  //       'getUser'
+  //   ]),
+  //   otro () {
+  //     this.$store.dispatch('incrementAsync');
+  //   }
+  // },
+  // computed: mapState({
+  //   count: state => state.user.count
+  // })
 }
 </script>
 <style></style>

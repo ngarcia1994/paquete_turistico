@@ -13,9 +13,6 @@ exports.getServices = async (req, res, next) => {
 
     services = await retrieveClass(service).find();
 
-    console.log(service)
-    console.log(services)
-
     res.json(services);
 };
 
