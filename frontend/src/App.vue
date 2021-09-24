@@ -30,12 +30,9 @@ export default {
     AppFooter
   },
   async mounted() {
-    // Obtiene todos los datos pasandole el servicio
-    // const services = await Client.retrieveAll('service');
-    // console.log(services);
-
-    // Agrega un documento con la información pasada
-    // await Client.saveOne('service', {name: 'Test', description: 'Title'});
+    if (localStorage.getItem('user')) {
+      this.$store.commit('setUser', JSON.parse(localStorage.getItem('user')));
+    }
   },
   // methods: {
   //   ...mapMutations([

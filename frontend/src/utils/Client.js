@@ -17,7 +17,7 @@ class Client {
     try {
       return await axiosInstance.post('/api/v1/general/' + services, data);
     } catch (e) {
-      console.log(e);
+      throw e;
     }
   }
 

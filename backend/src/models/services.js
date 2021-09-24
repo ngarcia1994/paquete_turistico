@@ -10,6 +10,10 @@ const ServiceSchema = new Schema({
   description: {
     type: String,
     required: true
+  },
+  url: {
+    type: String,
+    required: false
   }
 });
 
