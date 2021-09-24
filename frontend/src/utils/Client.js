@@ -21,6 +21,14 @@ class Client {
     }
   }
 
+  static async editOne(services, data) {
+    try {
+      return await axiosInstance.patch('/api/v1/general/' + services, data);
+    } catch (e) {
+      throw e;
+    }
+  }
+
   static async getUser(email, password) {
     try {
       return await axiosInstance.post('/api/v1/auth/', {
