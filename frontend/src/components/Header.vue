@@ -6,7 +6,8 @@
         <v-btn class="white--text" text to="/" v-if="user">{{user.name}}</v-btn>
         <v-btn class="white--text" text to="/" v-else>Login</v-btn>
         <v-btn class="white--text" text to="/recomendation">Recomendaciones</v-btn>
-        <v-btn class="white--text" text to="/about">Sobre</v-btn>
+        <v-btn class="white--text" text to="/recomendation/sitio">Sitio</v-btn>
+        <v-btn class="white--text" text to="/about">Sobre nosotros</v-btn>
         <v-btn class="white--text" text to="/salir" v-if="user" @click="cleanUser">Salir</v-btn>
     </v-app-bar>
   </div>

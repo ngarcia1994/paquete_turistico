@@ -25,9 +25,7 @@
           </v-form>
         </v-container>
 
-        <v-snackbar
-            v-model="snackbar"
-        >
+        <v-snackbar v-model="snackbar">
           {{snackbarText}}
 
           <template v-slot:action="{ attrs }">
