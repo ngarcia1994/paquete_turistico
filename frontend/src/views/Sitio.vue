@@ -8,15 +8,6 @@
   <div class="about">
     <h1>Esto es un sitio</h1>
     <div class="saludos">
-      <v-carousel>
-        <v-carousel-item
-            v-for="(item,i) in items"
-            :key="i"
-            :src="item.src"
-            reverse-transition="fade-transition"
-            transition="fade-transition"
-        ></v-carousel-item>
-      </v-carousel>
     </div>
   </div>
 </template>
