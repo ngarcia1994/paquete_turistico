@@ -84,7 +84,6 @@
 	.container .card h4{
 		font-weight: 600;
 	}
-
 	.container .card p{
 		padding: 0 1rem;
 		font-size: 16px;
