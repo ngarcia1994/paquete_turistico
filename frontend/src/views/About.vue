@@ -26,3 +26,5 @@
 			<a href="·">Leer mas</a>
 		</div>
 	</div>
+<style>
+</style>
