@@ -1,12 +1,9 @@
 <template>
   <div class="about">
-  
     <h1>This is an about page</h1>
-    
   </div>
 </template>
 <h1 class="title">CartaViajes</h1>
-
 	<div class="container">
 		<div class="card">
 			<img src="Torre del Reloj">
