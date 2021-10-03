@@ -30,7 +30,7 @@
 		</div>
 	</div>
 <style>
-html, body{
+body{
 	margin: 0;
 	margin: 0;
 }
