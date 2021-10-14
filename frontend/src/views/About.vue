@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>nodpapaya</h1>
 	<h1 class="title">Compra y opina Nuestro 3 Valores agregados</h1>
 		<div class="container">
 			<div class="card">
